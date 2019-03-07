@@ -1,0 +1,37 @@
+{
+  "name": "block-explorer",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "format": "prettier --single-quote --arrow-parens always --prose-wrap never --write src/**/*.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^2.1.5",
+    "redux": "^3.7.2",
+    "react-redux": "^5.0.7",
+    "redux-thunk": "^2.2.0",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "https://rameshmeduri.github.io/test"
+}
