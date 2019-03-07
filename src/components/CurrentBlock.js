@@ -41,7 +41,7 @@ class CurrentBlock extends Component {
     return (
       <div>
         <div className="card card-body mb-4 p-4">
-          <h4 className="text-center">Block</h4>
+          <h4 className="text-center">Search Block</h4>
           <form onSubmit={this.onSubmit}>
             <div className="row">
               <div className="col-2" />
