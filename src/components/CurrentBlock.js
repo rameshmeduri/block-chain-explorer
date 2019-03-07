@@ -59,7 +59,7 @@ class CurrentBlock extends Component {
               </div>
               <div className="col-4">
                 <button type="submit" className="btn btn-secondary btn-sm">
-                  CurrentBlock
+                  Search
                 </button>
               </div>
             </div>
